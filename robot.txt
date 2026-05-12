@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cart/
+Sitemap: https://mustapha-official.github.io/Fatima_Collection/sitemap.xml
