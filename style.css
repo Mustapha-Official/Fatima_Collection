@@ -17,9 +17,9 @@ body{
   align-items: center;
   padding: 20px 7%;
   background: #4D260D;
-  position: sticky;
   top: 0;
   z-index: 999;
+  left: 0;
   position: fixed;
   width: 100%;
 }
@@ -28,7 +28,7 @@ body{
   font-size: 24px;
   font-weight: bold;
   color: #FFFFFF;
-  font-family: cursive;
+  font-family: Times New Roman;
 }
 
 .nav-links{
@@ -58,6 +58,7 @@ body{
   url(slide12.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,8 +76,8 @@ body{
 }
 
 .hero p{
-  font-size: 18px;
-  line-height: 1.8;
+  font-size: 20px;
+  line-height: 1.7;
   margin-bottom: 30px;
 }
 
@@ -91,8 +92,9 @@ body{
 
 /* ABOUT */
 .about{
-  padding: 80px 7%;
+  padding: 80px 30px;
   text-align: center;
+  max-width: 1100px;
 }
 
 .about h2{
@@ -130,7 +132,7 @@ body{
 
 /* PRODUCTS */
 .products{
-  padding: 70px 7%;
+  padding: 80px 7%;
 }
 
 .products h2{
@@ -151,10 +153,11 @@ body{
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0,0,0,.1);
   transition: .3s;
+  width: 100%;
 }
 
 .card:hover{
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .card img{
